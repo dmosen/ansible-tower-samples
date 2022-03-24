@@ -28,3 +28,6 @@
     - name: Top 3 memory hogs
       debug:
         var: pssize.stdout_lines[:4]
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
